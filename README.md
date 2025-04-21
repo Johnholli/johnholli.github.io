@@ -1,2 +1,2 @@
-# johnhollingsworth.github.io
+# johnholli.github.io
 My personal portfolio site
