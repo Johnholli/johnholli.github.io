@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>John Hollingsworth | Cloud Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f8f9fb;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      background: linear-gradient(90deg, #0d1117, #1f2937);
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+    }
+    header p {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      color: #d1d5db;
+    }
+    main {
+      max-width: 1000px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+    }
+    section.intro {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    section.intro p {
+      font-size: 1.1rem;
+      color: #555;
+    }
+    .project {
+      background-color: white;
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    }
+    .project h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      color: #111827;
+    }
+    .project ul {
+      margin-left: 1.5rem;
+    }
+    .project a {
+      display: inline-block;
+      margin-top: 1rem;
+      color: #3b82f6;
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .links {
+      text-align: center;
+      margin: 3rem 0;
+    }
+    .links a {
+      margin: 0 1rem;
+      color: #3b82f6;
+      font-weight: 600;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.9rem;
+      color: #888;
+      background-color: #f1f5f9;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>John Hollingsworth</h1>
+    <p>Cloud Projects, Resume & Technical Blog</p>
+  </header>
+
+  <main>
+    <section class="intro">
+      <p>Welcome to my portfolio. I specialize in building and securing cloud environments using AWS, DevOps best practices, and infrastructure-as-code. Below you'll find my projects, resume, and links to connect.</p>
+    </section>
+
+    <section class="project">
+      <h2>🖥️ Static Website Hosting on AWS S3</h2>
+      <p>This project demonstrates how to deploy a secure static website using Amazon S3, with public/private folders and custom IAM bucket policies.</p>
+      <ul>
+        <li>Simulated folder structure: <code>/images</code>, <code>/css</code></li>
+        <li>Enabled static hosting with custom index.html</li>
+        <li>Applied prefix-based access controls for public access</li>
+      </ul>
+      <a href="https://github.com/Johnholli/cloud-projects/tree/main/s3-static-website-hosting" target="_blank">🔗 View Project on GitHub</a>
+    </section>
+
+    <!-- Add more project sections here in same format -->
+
+    <div class="links">
+      <a href="https://github.com/Johnholli" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/your-link" target="_blank">LinkedIn</a>
+      <a href="/resume.pdf" target="_blank">Resume</a>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 John Hollingsworth — Built with HTML & Hosted on GitHub Pages
+  </footer>
+</body>
+</html>
